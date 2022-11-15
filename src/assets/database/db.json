@@ -1,0 +1,442 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Mission Chinese Food",
+      "neighborhood": "Manhattan",
+      "photograph": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80",
+      "address": "171 E Broadway, New York, NY 10002",
+      "latlng": {
+        "lat": 40.713829,
+        "lng": -73.989667
+      },
+      "cuisine_type": "Asian",
+      "operating_hours": {
+        "Monday": "5:30 pm - 11:00 pm",
+        "Tuesday": "5:30 pm - 12:00 am",
+        "Wednesday": "5:30 pm - 12:00 am",
+        "Thursday": "5:30 pm - 12:00 am",
+        "Friday": "5:30 pm - 12:00 am",
+        "Saturday": "12:00 pm - 4:00 pm, 5:30 pm - 12:00 am",
+        "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "Mission Chinese Food has grown up from its scrappy Orchard Street days into a big, two story restaurant equipped with a pizza oven, a prime rib cart, and a much broader menu. Yes, it still has all the hits — the kung pao pastrami, the thrice cooked bacon —but chef/proprietor Danny Bowien and executive chef Angela Dimayuga have also added a raw bar, two generous family-style set menus, and showstoppers like duck baked in clay. And you can still get a lot of food without breaking the bank."
+        },
+        {
+          "name": "Morgan",
+          "date": "October 26, 2016",
+          "rating": 3.5,
+          "comments": "This place is a blast. Must orders: GREEN TEA NOODS, sounds gross (to me at least) but these were incredible!, Kung pao pastrami (but you already knew that), beef tartare was a fun appetizer that we decided to try, the spicy ma po tofu SUPER spicy but delicous, egg rolls and scallion pancake i could have passed on... I wish we would have gone with a larger group, so much more I would have liked to try!"
+        },
+        {
+          "name": "Jason",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "I was VERY excited to come here after seeing and hearing so many good things about this place. Having read much, I knew going into it that it was not going to be authentic Chinese. The place was edgy, had a punk rock throwback attitude, and generally delivered the desired atmosphere. Things went downhill from there though. The food was okay at best and the best qualities were easily overshadowed by what I believe to be poor decisions by the kitchen staff."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Emily",
+      "neighborhood": "Brooklyn",
+      "photograph": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80",
+      "address": "919 Fulton St, Brooklyn, NY 11238",
+      "latlng": {
+        "lat": 40.683555,
+        "lng": -73.966393
+      },
+      "cuisine_type": "Pizza",
+      "operating_hours": {
+        "Monday": "5:30 pm - 11:00 pm",
+        "Tuesday": "5:30 pm - 11:00 pm",
+        "Wednesday": "5:30 pm - 11:00 pm",
+        "Thursday": "5:30 pm - 11:00 pm",
+        "Friday": "5:30 pm - 11:00 pm",
+        "Saturday": "5:00 pm - 11:30 pm",
+        "Sunday": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Steph",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Five star food, two star atmosphere. I would definitely get takeout from this place - but dont think I have the energy to deal with the hipster ridiculousness again. By the time we left the wait was two hours long."
+        },
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "This cozy Clinton Hill restaurant excels at both straightforward and unusual wood-fired pizzas. If you want a taste of the latter, consider ordering the Emily, which is topped with mozzarella, pistachios, truffled sottocenere cheese, and honey. The menu includes salads and a handful of starters, as well as a burger that some meat connoisseurs consider to be among the best in the city."
+        },
+        {
+          "name": "Sam",
+          "date": "October 26, 2016",
+          "rating": 3.5,
+          "comments": "5 star atmosphere as it is very cozy with great staff. 5 star food as their Emmy burger is outrageously good. and its on a pretzel bun.. Too juicy for its own good and downright addicting. Also try the Colony pizza. Many others looked like worth competitors, but the Colony really found its way to my heart. when you start with a great crust, top it with top notch cheese and sauce, you've got a winner. But, if you go a step further and add the salty from the pepperoni, the sweet from the honey, and the spicy from the chili oil.... your mouth is confused and happy at the same time."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kang Ho Dong Baekjeong",
+      "neighborhood": "Manhattan",
+      "photograph": "https://images.unsplash.com/photo-1590330813083-fc22d4b6a48c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80",
+      "address": "1 E 32nd St, New York, NY 10016",
+      "latlng": {
+        "lat": 40.747143,
+        "lng": -73.985414
+      },
+      "cuisine_type": "Asian",
+      "operating_hours": {
+        "Monday": "11:30 am - 2:00 am",
+        "Tuesday": "11:30 am - 2:00 am",
+        "Wednesday": "11:30 am - 2:00 am",
+        "Thursday": "11:30 am - 2:00 am",
+        "Friday": "11:30 am - 6:00 am",
+        "Saturday": "11:30 am - 6:00 am",
+        "Sunday": "11:30 am - 2:00 am"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "The tables at this 32nd Street favorite are outfitted with grills for cooking short ribs, brisket, beef tongue, rib eye, and pork jowl. The banchan plates are uniformly good, and Deuki Hong’s menu also includes winning dishes like stir-fried squid noodles, kimchi stew, and seafood pancakes. If it’s available, make sure to order the kimchi and rice “lunchbox.” Baekjeong is a great place for large groups and birthday parties."
+        },
+        {
+          "name": "ZS",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "I've been to Korea before and many other Korean BBQ places. We had the regular pork belly and a beef (forgot which cut) and a seafood tofu soup. Two meat and a soup was just prefect for the two of us. We could have done one meat and one soup. The portions of the meat are great! The beef was juicy, tender and so good. The sides were excellent. "
+        },
+        {
+          "name": "Emily",
+          "date": "October 26, 2016",
+          "rating": 2.5,
+          "comments": "MEH. I've tried their Jersey location as well but Kang Ho Dong meat quality is severely decreasing. A Korean bbq place with whatever meat? I think NOT!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Katz's Delicatessen",
+      "neighborhood": "Manhattan",
+      "photograph": "https://images.unsplash.com/photo-1595436252086-7496fb8c41e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80",
+      "address": "205 E Houston St, New York, NY 10002",
+      "latlng": {
+        "lat": 40.722216,
+        "lng": -73.987501
+      },
+      "cuisine_type": "American",
+      "operating_hours": {
+        "Monday": "8:00 am - 10:30 pm",
+        "Tuesday": "8:00 am - 10:30 pm",
+        "Wednesday": "8:00 am - 10:30 pm",
+        "Thursday": "8:00 am - 2:30 am",
+        "Friday": "8:00 am - Sat",
+        "Saturday": "Open 24 hours",
+        "Sunday": "Sat - 10:30 pm"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "In 127 years, little has changed at Katz's. It remains one of New York's — and the country's — essential Jewish delicatessens. Every inch of the massive Lower East Side space smells intensely of pastrami and rye loaves. The sandwiches are massive, so they are best when shared. Order at the counter, and don't forget to tip your slicer — your sandwich will be better for it."
+        },
+        {
+          "name": "Allen",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "If I lived in NY and got diabetes from eating here every single time I ate, I would do it over and over and over again just for that first bite. These guys know how to make a sandwich. The heart attack comes free of charge! Came by while I was visiting NYC. First pit-stop when I come back :)!"
+        },
+        {
+          "name": "David",
+          "date": "October 26, 2016",
+          "rating": 2.5,
+          "comments": "Ok so four of us came. One more later who didn't order becauase it's so expensive and simple. Seriously, a bunch of meat albeit you can sample beforehand on rye/white/wheat bread. Cheese extra. Pickles free, you can just ask them at the pickup counter. But seriously 20 bucks gone for an non-flavored half sandwich. And a line that is long, especially if you want seating. I'm down to just take a quick look where Sally and Harry sat and leave to the other delis all around NYC. Oh and they accept Samsung pay."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Roberta's Pizza",
+      "neighborhood": "Brooklyn",
+      "photograph": "https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80",
+      "address": "261 Moore St, Brooklyn, NY 11206",
+      "latlng": {
+        "lat": 40.705089,
+        "lng": -73.933585
+      },
+      "cuisine_type": "Pizza",
+      "operating_hours": {
+        "Monday": "11:00 am - 12:00 am",
+        "Tuesday": "11:00 am - 12:00 am",
+        "Wednesday": "11:00 am - 12:00 am",
+        "Thursday": "11:00 am - 12:00 am",
+        "Friday": "11:00 am - 12:00 am",
+        "Saturday": "10:00 am - 12:00 am",
+        "Sunday": "10:00 am - 12:00 am"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Roberta's is the epicenter of the modern Brooklyn food scene.The pizzas are fantastic, but the restaurant really flexes its muscles with the vegetable dishes. In addition to the pies, consider ordering the radishes, the romaine salad, the roasted beets, and some of the charcuterie."
+        },
+        {
+          "name": "Raymond",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Roberta's, one of the better pizzas I have had in my life. Very trendy and hipsterish spot. Came here for lunch on a random weekday afternoon and when we arrived, there was a line forming already. The space is a bit cramped. You'll get to know your neighbors soon enough. The pizza is just delightful and delicious. It's a ncie plus that you get to see them firing up the pizzas in the corner. The major issue with Roberta's is the trek out to the Williamsburg/Bushwick."
+        },
+        {
+          "name": "Laurel",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "The pizza is fantastic, not THE best I've ever had, but would definitely go back since it has great food and great ambiance. Definitely worth going to. It has A LOT of hype in the New York food scene, and I question if it deserves all of it, but it's still a totally great spot to hit up when in the area!!"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Hometown BBQ",
+      "neighborhood": "Brooklyn",
+      "photograph": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80",
+      "address": "454 Van Brunt St, Brooklyn, NY 11231",
+      "latlng": {
+        "lat": 40.674925,
+        "lng": -74.016162
+      },
+      "cuisine_type": "American",
+      "operating_hours": {
+        "Monday": "Closed",
+        "Tuesday": "12:00 pm - 10:00 pm",
+        "Wednesday": "12:00 pm - 10:00 pm",
+        "Thursday": "12:00 pm - 10:00 pm",
+        "Friday": "12:00 pm - 11:00 pm",
+        "Saturday": "12:00 pm - 11:00 pm",
+        "Sunday": "12:00 pm - 9:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 3.5,
+          "comments": "Barbecue aficionados agree that Billy Durney is cooking up some of the best Texas-style barbecue in the city. Straightforward classics like smoked brisket and baby back ribs are always a strong choice, but there are also options like pork belly tacos and a lamb belly banh mi. The space is sprawling in a way that feels like the real deal, and Durney himself can usually be found working the room, and keeping a watchful eye on the smoking meats. It's counter service only, and there's often a line, but for the scene and certainly for the meat, it's easily worth the trip to Red Hook."
+        },
+        {
+          "name": "Michelle",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "Overall, a great try of New York BBQ. The restaurant décor is rustic with a good amount of seats to sit and enjoy the meal. I definitely would love to come back and try that monster of a beef rib!"
+        },
+        {
+          "name": "Ai-Mei",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "mmmmmm, what a gem this is in bklyn! I loveeee how soft their brisket is here. Their pork tacos are to die for, their different variety of ribs and lastly, their lamb is not gamey at all. Super wallet friendly for the amount they give you. I highly recommend this spot- after eating here, you can definitely walk over for Steve's key lime pies."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Superiority Burger",
+      "neighborhood": "Manhattan",
+      "photograph": "https://images.unsplash.com/photo-1565060299583-08dd3af8e3cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1533&q=80",
+      "address": "430 E 9th St, New York, NY 10009",
+      "latlng": {
+        "lat": 40.727397,
+        "lng": -73.983645
+      },
+      "cuisine_type": "American",
+      "operating_hours": {
+        "Monday": "11:30 am - 10:00 pm",
+        "Tuesday": "Closed",
+        "Wednesday": "11:30 am - 10:00 pm",
+        "Thursday": "11:30 am - 10:00 pm",
+        "Friday": "11:30 am - 10:00 pm",
+        "Saturday": "11:30 am - 10:00 pm",
+        "Sunday": "11:30 am - 10:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "Brooks Headley’s tiny East Village cafe is so much more than a veggie burger spot — it's one of the best bang-for-your-buck restaurants in Lower Manhattan. Headley and his crew turn seasonal vegetables into delectable salads and riffs on American comfort food favorites. The specials menu changes daily, and the rest of the menu is constantly evolving. You can get a lot of food to eat here for under $15 per person."
+        },
+        {
+          "name": "Gabriel",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "I was turned on to this place following the glowing NYT review. Its near my area of the city so I figured why not go? Man they weren't kidding, Superiority Burger is probably the best vegetarian experience I've ever had!"
+        },
+        {
+          "name": "Shivi",
+          "date": "October 26, 2016",
+          "rating": 3.5,
+          "comments": "Great flavors and very satisfying. Craving a sandwich, I stopped by on a Friday night with a vegetarian friend. Super small location with just a few seats inside. Ambiance is a bit industrial, good is definitely much more sophisticated than the look of the place! Ordered the superiority burger anda side of potato salad. The potato salad was very light and tasted clean ( less mayo, lots of dill and some cucumber) -- refreshing for a humid summer night! Sandwich was surprisingly delicious - it is very small ( funny allusion to a White Castle burger) but it packs a punch! Not only are there layers of flavors ( amazing sauces) but the party itself had a great texture Ahmed flavor-- well done and so wonderful! Will definitely stop by again for an overall amazing burger/sandwich. Staff was super nice and accommodating but not out of the way friendly."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "The Dutch",
+      "neighborhood": "Manhattan",
+      "photograph": "https://images.unsplash.com/photo-1611171711791-b34fa42e9fc2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80",
+      "address": "131 Sullivan St, New York, NY 10012",
+      "latlng": {
+        "lat": 40.726584,
+        "lng": -74.002082
+      },
+      "cuisine_type": "American",
+      "operating_hours": {
+        "Monday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Tuesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Wednesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Thursday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Friday": "11:30 am - 3:00 pm, 5:30 pm - 11:30 pm",
+        "Saturday": "10:00 am - 3:00 pm, 5:30 pm - 11:30 pm",
+        "Sunday": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Over the last five years, The Dutch has turned into the quintessential American restaurant that chef Andrew Carmellini and partners Josh Pickard and Luke Ostrom sought to evoke when it first opened. It’s a great choice when you’re craving a steak, a burger, or oysters, and the menu always includes plentiful seafood options as well as pastas. The Dutch is now an indelible part of the Soho landscape."
+        },
+        {
+          "name": "Loren",
+          "date": "October 26, 2016",
+          "rating": 3.5,
+          "comments": "I randomly came here on a Saturday night. I was pleasantly surprised with the food and the service. We had the calamari and the ceviche with avocado, and then the catfish. Oh! Then we had the banana soufflé for dessert with ice cream. It was all delicious and well put together. Would love to eat here again."
+        },
+        {
+          "name": "Lori",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Aside from the slightly claustrophobic dining area and the fact that you may have difficulty hearing your dining companion, I'd return to The Dutch without hesitation. The food is surprisingly well-executed and conceived, and our dinner service flowed smoothly without a hitch. Just make sure to get a reservation in advance, as I'm sure more than just a few other people will have the same idea."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Mu Ramen",
+      "neighborhood": "Queens",
+      "photograph": "https://images.unsplash.com/photo-1511910849309-0dffb8785146?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80",
+      "address": "1209 Jackson Ave, Queens, NY 11101",
+      "latlng": {
+        "lat": 40.743797,
+        "lng": -73.950652
+      },
+      "cuisine_type": "Asian",
+      "operating_hours": {
+        "Monday": "5:00 pm - 10:00 pm",
+        "Tuesday": "5:00 pm - 10:00 pm",
+        "Wednesday": "5:00 pm - 10:00 pm",
+        "Thursday": "5:00 pm - 10:00 pm",
+        "Friday": "5:00 pm - 11:00 pm",
+        "Saturday": "5:00 pm - 11:00 pm",
+        "Sunday": "5:00 pm - 10:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Joshua Smookler’s two-year-old ramen shop serves one of the best tonkotsu broths around. Beyond ramen, Mu also offers some high minded plates, like foie gras-stuffed chicken wings, as well as dry-aged Japanese Wagyu beef specials. Mu is just 10 short minutes away from Midtown via the 7-train."
+        },
+        {
+          "name": "Brittany",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "Overall, I would definitely recommend this place if you enjoy thick curly noodles with a thick, intense broth.  If you don't there are still other options but I can't vouch for those."
+        },
+        {
+          "name": "Sally",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "One of the tastiest and most unique ramen places I've been to in NYC, but also the priciest. I think overall its worth the try. Not an everyday casual ramen shop though."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Casa Enrique",
+      "neighborhood": "Queens",
+      "photograph": "https://images.unsplash.com/photo-1624300629298-e9de39c13be5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80",
+      "address": "5-48 49th Ave, Queens, NY 11101",
+      "latlng": {
+        "lat": 40.743394,
+        "lng": -73.954235
+      },
+      "cuisine_type": "Mexican",
+      "operating_hours": {
+        "Monday": "5:00 pm - 12:00 am",
+        "Tuesday": "5:00 pm - 12:00 am",
+        "Wednesday": "5:00 pm - 12:00 am",
+        "Thursday": "5:00 pm - 12:00 am",
+        "Friday": "5:00 pm - 12:00 am",
+        "Saturday": "11:00 am - 12:00 am",
+        "Sunday": "11:00 am - 12:00 am"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "Head to this laid-back Long Island City restaurant for beef tongue tacos, chicken smothered in a heady mole sauce, and a monster crab tostada. New York's only Michelin-starred Mexican restaurant is an especially cool choice for lunch during the week or drinks after work. Eater critic Ryan Sutton awarded this restaurant two stars."
+        },
+        {
+          "name": "Rob",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "The hype was real. Please go. Get the ceviche. And the tres leches. You're welcome"
+        },
+        {
+          "name": "Jason",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "For a Michelin star restaurant, it's fairly priced and the food is fairly good. Started with a strawberry margarita which was good in flavor but not much alcohol. Had the chicken enchiladas with salsa verde and it was really good. Great balance in flavor and a good portion. Extra tasty with their hot sauces. My wife had the lamb but it was a bit too salty for our taste. Although, it was cooked very well and fell off the bone. The highlight of the night was the tres leches cake. Probably the best I've ever had to be honest. Not too sweet and very milky. Overall, one of my top 3 favorite Mexican in NY."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Resto Cafe ",
+      "neighborhood": "kakkanad",
+      "photograph": "data:image/jpeg;base64,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",
+      "address": "Near Infopark Kakkanad kerala India",
+      "latlng": {
+        "lat": "23",
+        "lng": "234"
+      },
+      "operating_hours": {
+        "Monday": "10:30 am - 11.00 pm",
+        "Tuesday": "10:30 am - 11.00 pm",
+        "Wednesday": "10:30 am - 11.00 pm",
+        "Thursday": "10:30 am - 11.00 pm",
+        "Friday": "10:30 am - 11.00 pm",
+        "Saturday": "10:30 am - 11.00 pm",
+        "Sunday": "10:30 am - 11.00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Max",
+          "date": "October6,2022",
+          "rating": "4.3",
+          "comments": "Good ambience"
+        }
+      ]
+    }
+  ]
+}

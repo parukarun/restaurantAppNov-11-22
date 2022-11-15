@@ -1,0 +1,84 @@
+
+
+
+                                Angular - Front End Technology
+                                  
+                                    - Basic Commands
+                        
+                        1. To create project - ng new project-name
+
+                        2. To run project - ng serve / ng serve --open
+
+                        3. To generate Components - ng g c Component-name
+
+                        4. To create Service - ng g s service-name
+
+                        5. to create pipe - ng g p pipe-name
+
+                                    - Basic Concepts
+            
+            1. Module - Import liabraries - Root Module - AppModule
+
+            2. Components - generate html, css, ts - Root Components - AppComponent
+
+            3. To setup path for Component - AppRoutingModule
+                 - syntax:{ path:'path name' , component:component-name } inside Routes Array
+            
+            4. Selectors - replace it with corresponding component html page
+
+            5. router-outlet Selector is used to switch
+                  page according to user request in Root component html page
+
+            6. Angular Service - reusable code can be stored , 
+                  and we can use it in all component across the application
+
+            7. Dependency Injection - to share data between dependent classes, (in constructor)
+                 syntax: access-specifiers variable-name : dependent class name  
+                 access-specifiers (public /private) 
+
+            8. Asyncronous Function call - (rxjs libraries) Observable
+                   - resolve (subscribe)
+                   - reject (catch)
+
+            9. Data Binding - share data within a component
+                9.1 One way Binding - share data only in one direction at a time
+
+                  9.1.1 Component(ts) to View(html) file
+
+                           9.1.1.1 String Interpolation - syntax: {{class-property-name}} in html
+
+                           9.1.1.2 property Binding - syntax:[attribute]="class-property-name"
+
+                  9.1.2 view(html) to component(ts) file
+
+                       9.1.2.1  Event Binding - (event-name)="function call()"
+
+                       9.1.2.2  Event Binding using $event - (event-name)="function call($event)"
+
+
+                9.2 Two way Binding - share data only in two direction at a time
+
+                  9.2.1  ngModel - Import FormsModule , [(ngModel)]="property-name"
+
+                        
+
+            10. Angular Directive - to manipulate DOM
+
+                  10.1 Component Directive
+                  10.2 Structural Directive - based on condition or array length we can add/remove html 
+                                              elements from DOM
+                         10.2.1 *ngIf = "condition" - inside html element
+                         10.2.2 *ngFor="let iterator of array-name"
+                                                                            
+                  10.3 Attribute Directive - based on some value / class property we can set style
+                                             of html elements
+
+            11. Activated Route - Provides access to information about a route associated with a component that is 
+                                  loaded in an outlet.
+
+            
+            12. ngForm - to track the form values
+
+            13. Pipe - Use pipes to transform strings, currency amounts, dates, and other data for display.
+
+            14. BehaviorSubject - used which acts as a single store to hold updated shared data. 

@@ -1,0 +1,75 @@
+ <!-- Product section-->
+ <section class="py-1">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-5"><img class="card-img-top mb-5 mb-md-0 w-75 ms-5 border border-light p-1" src={{restDetailes.photograph}} alt="..." /></div>
+            <div class="col-md-7  text-light ps-5">
+                <div class="small mb-1">ID: {{restDetailes.id}}</div>
+                <h1 class="display-5 fw-bolder text-warning">{{restDetailes.name}}</h1>
+
+                <div class="fs-5 mb-2">
+                    <!-- cuisine_type -->
+                <p class="lead fs-6 text-info">Cuisine Type : {{restDetailes.cuisine_type}}</p>
+                
+                    <p class="">Neighborhood  :  {{restDetailes.neighborhood}}</p>
+                   
+                </div>
+                <p class="lead fs-6">Address : {{restDetailes.address}}</p>
+                <!-- operating hours -->
+                <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Operating Hours
+                </button>
+                
+  
+                <!-- Modal -->
+               <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                     <div class="modal-content text-bg-secondary">
+                          <div class="modal-header">
+                             <h1 class="modal-title fs-5" id="exampleModalLabel">Operating Hours</h1>
+                             <button type="button" class="btn-close btn btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                           <div class="modal-body">
+                              <ul class="list-group">
+                                  <li class="list-group-item text-bg-warning">Monday &nbsp;:&nbsp; {{restDetailes.operating_hours['Monday']}}</li>
+                                  <li class="list-group-item text-bg-warning">Tuesday &nbsp;:&nbsp; {{restDetailes.operating_hours['Tuesday']}}</li>
+                                  <li class="list-group-item text-bg-warning">Wednesday &nbsp;:&nbsp; {{restDetailes.operating_hours['Wednesday']}}</li>
+                                  <li class="list-group-item text-bg-warning">Thursday &nbsp;:&nbsp; {{restDetailes.operating_hours['Thursday']}}</li>
+                                  <li class="list-group-item text-bg-warning">Friday &nbsp;:&nbsp; {{restDetailes.operating_hours['Friday']}}</li>
+                                  <li class="list-group-item text-bg-warning">Saturday &nbsp;:&nbsp; {{restDetailes.operating_hours['Saturday']}}</li>
+                                  <li class="list-group-item text-bg-danger">Sunday &nbsp;:&nbsp; {{restDetailes.operating_hours['Sunday']}}</li>
+                              </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+                <!-- reviews -->
+                <p class="mt-2">
+                    <button class="btn btn-secondary mt-3 mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                      Customer Reviews
+                    </button>
+               </p>
+                  
+               <div class="collapse" id="collapseWidthExample">
+                   <div class="card card-body bg-secondary text-light">
+                        <div class="mt-2" *ngFor="let item of restDetailes.reviews">
+                            <h5 class="fs-6">{{item['name']}}  ( {{item['date']}} ): </h5>
+                            <h6 class="fs-6 text-warning">Rating : {{item['rating']}} </h6>
+                            <p style="font-size: 13px;"> Comments : {{item['comments']}}</p>
+                        </div>
+                   </div>
+               </div>
+
+                <!-- update and delete link -->
+
+                <div class="fs-6 ">
+                    <a routerLink="/update-restaurant/{{restDetailes.id}}" class="text-success">Update Restaurant</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a routerLink="/delete-restaurant/{{restDetailes.id}}" class="text-danger">Delete Restaurant</a>
+                </div>
+                  
+               
+            </div>
+        </div>
+    </div>
+</section>
